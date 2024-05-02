@@ -11,12 +11,12 @@
   margin: auto;
   height: 60vh;
   padding: 33px;
-  overflow-y: scroll;
+  overflow-y: auto;
   margin-bottom: 23px;
 }
 
 .message {
-  background-color: grey;
+  background-color: rgb(180, 177, 177);
   width: 24%;
   padding: 10px;
   margin: 17px 12px;
@@ -34,25 +34,25 @@
   clear: both;
 }
 
-#send-container{
-    display: block;
-    margin: auto;
-    text-align: center;
-    max-width: 985px;
-    width: 100%;
+#send-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 985px;
+  width: 100%;
 }
-#messageInp{
-    width: 92%;
-    border: 2px solid black;
-    border-radius: 6px;
-    height: 34px;
+#messageInp {
+  width: 92%;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 34px;
 }
 
-.btn{
-    cursor: pointer;
-    border: 2px solid black;
-    border-radius: 6px;
-    height: 34px;
+.btn {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 34px;
 }
 
 body {
